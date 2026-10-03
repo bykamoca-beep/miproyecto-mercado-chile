@@ -1,19 +1,19 @@
 # Query: 
 # ContextLines: 1
 
-# 📊 Chilean Financial Market & Global Benchmarks Dashboard
+# Chilean Financial Market & Global Benchmarks Dashboard
 
 Un dashboard financiero e interactivo que automatiza la extracción, procesamiento y visualización de datos de los principales activos del mercado financiero chileno (IPSA, Retail, Banca) y commodities/benchmarks globales.
 
 ---
 
-## 📸 Dashboard Overview
+## Dashboard Overview
 
 ![Dashboard Principal](powerbi/screenshots/dashboard_final.png)
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 - **ETL & Data Pipeline:** Python (`yfinance`, `pandas`) para automatizar la extracción de series de tiempo históricas y cálculo de retornos.
 - **Data Visualization & Analytics:** Power BI Desktop, métricas DAX (`LASTNONBLANKVALUE` para precios al cierre diarios) y modelado de datos.
@@ -30,7 +30,7 @@ Un dashboard financiero e interactivo que automatiza la extracción, procesamien
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. **Clonar el repositorio:**
    ```bash
